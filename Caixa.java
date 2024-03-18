@@ -2,6 +2,21 @@ package atividades_poo;
 
 import java.util.Scanner;
 
+/*
+ * Um comerciante precisa informatizar o caixa de sua loja. Codifique um programa que:
+ * Leia uma série de valores correspondendo aos preços das mercadorias compradas por um cliente
+ * (o valor zero finaliza a entrada);
+ * Calcule o valor total;
+ * 
+ * Aplique o desconto conforme tabela abaixo:
+ * - n < R$50,00 	= 5%
+ * - n até R$100,00 = 10%
+ * - n até R$200,00 = 15%
+ * - n > R$200,00	= 20%
+ * 
+ * Mostre o valor a ser pago
+ */
+
 public class Caixa {
 
 	public static void main(String[] args) {
